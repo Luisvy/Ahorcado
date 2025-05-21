@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahorcado Divertido</title>
+    <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="./style/main.css" />
+  </head>
+  <body>
+    <h1 class="titulo">¡Ahorcado divertido!</h1>
+    <p>¿Podrás adivinar la palabra?</p>
+    <div id="palabraPlaceholder"></div>
+    <div id="vidasContainer">
+    <p>Historial de letras: </p>
+    <div id="historialDeLetras"></div>
+    <div class="inputContainer">
+      <input
+        type="text"
+        placeholder="Letra"
+        maxlength="1"
+        id="inputLetra"
+      />
+      <button id="botonComprobar">¡Prueba!</button>
+    </div>
+    <p id="vidas">Vidas restantes: <span id="vidasRestantes"></span></p>
+    <h2>Te dejo un slider de Gatitos mientras tanto</h2>
+    <div class="carrouselContainer">
+      <img
+        src="https://s1.ppllstatics.com/lasprovincias/www/multimedia/202112/12/media/cortadas/gatos-kb2-U160232243326NVC-1248x770@Las%20Provincias.jpg"
+        alt="FOTO CARROUSEL"
+        id="imagenCarrousel"
+      />
+      <div class="buttonContainer">
+        <button id="anterior"><--</button>
+        <button id="siguiente">--></button>
+      </div>
+    </div>
+  </body>
+</html>
